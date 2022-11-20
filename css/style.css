@@ -1,8 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0b9ca3;
+    --primary: #0ba9bb;
     --light: #F1F8FF;
     --dark: #0F172B;
+}
+
+.text-trin {
+    color: #eb1c24;
 }
 
 .ff-secondary {
@@ -51,8 +55,8 @@
 
 .btn.btn-primary,
 .btn.btn-secondary {
-    background-color: #0b9ca3;
-    border-color: #0b9ca3;
+    background-color: #eb1c24;
+    border-color: #eb1c24;
     color: #FFFFFF;
 }
 
@@ -178,7 +182,7 @@
 /*** Section Title ***/
 .section-title {
     position: relative;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .section-title::before {
