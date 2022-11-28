@@ -13,6 +13,18 @@
     color: #0ba9bb;
 }
 
+#domicilio:hover {
+    font-weight: bolder;
+    font-size: larger;
+    transition: .5;
+}
+
+#reserva:hover {
+    font-weight: bolder;
+    font-size: larger;
+    transition: .5s;
+}
+
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
@@ -223,17 +235,17 @@
     transition: .5s;
 }
 
-.service-item:hover {
+/* .service-item:hover {
     background: var(--primary);
-}
+} */
 
 .service-item * {
     transition: .5s;
 }
 
-.service-item:hover * {
+/* .service-item:hover * {
     color: var(--light) !important;
-}
+} */
 
 
 /*** Food Menu ***/

@@ -63,7 +63,7 @@
                         <a href="#valorations-start" class="nav-item nav-link">Valoraciones</a>
                         <a href="#contact-start" class="nav-item nav-link">Contacto</a>
                     </div>
-                    <a href="https://wa.link/3t4fdo" class="btn btn-primary py-2 px-4" target="_blank">PIDE A DOMICILIO</a>
+                    <a href="https://wa.link/3t4fdo" class="btn btn-primary py-2 px-4" target="_blank" id="domicilio">PIDE A DOMICILIO</a>
                 </div>
             </nav>
 
@@ -75,7 +75,7 @@
                                 <h1 class="display-3 text-white animated slideInLeft">Bienvenido a <br>TRINCHETE PICNIC</h1>
                                 <p class="text-white animated slideInLeft mb-4 pb-2">Vive la experiencia de compartir y disfrutar momentos inolvidables. <br>
                                     Te ofrecemos picnics temáticos para cada ocasión.</p>
-                                <a href="https://wa.link/3t4fdo" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft" target="_blank">RESERVA TU MESA YA!</a>
+                                <a href="https://wa.link/3t4fdo" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft" target="_blank" id="reserva">RESERVA TU MESA YA!</a>
                             </div>
                             <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                                 <!-- <img class="img-fluid" src="img/hero.png" alt=""> -->
@@ -97,16 +97,16 @@
                         <div class="col-lg-6">
                             <div class="row g-3">
                                 <div class="col-6 text-start">
-                                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-4.jpeg">
                                 </div>
                                 <div class="col-6 text-start">
-                                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-1.jpeg" style="margin-top: 25%;">
                                 </div>
                                 <div class="col-6 text-end">
-                                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpeg">
                                 </div>
                                 <div class="col-6 text-end">
-                                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-2.jpeg">
                                 </div>
                             </div>
                         </div>
@@ -197,13 +197,13 @@
                 <div class="container">
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h5 class="section-title ff-secondary text-center text-trin fw-normal">Menu</h5>
-                        <h1 class="mb-5">Most Popular Items</h1>
+                        <h1 class="mb-5">Nuestros Deliciosos Platos</h1>
                     </div>
                     <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                         <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-                                    <i class="fa fa-coffee fa-2x text-trin"></i>
+                                    <i class="fa fa-solid fa-cheese fa-2x text-trin"></i>
                                     <div class="ps-3">
                                         <small class="text-body">PA' EMPEZAR</small>
                                         <h6 class="mt-n1 mb-0">Entradas</h6>
@@ -212,7 +212,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                    <i class="fa fa-hamburger fa-2x text-trin"></i>
+                                    <i class="fa fa-solid fa-bacon fa-2x text-trin"></i>
                                     <div class="ps-3">
                                         <small class="text-body">PA' PICAR</small>
                                         <h6 class="mt-n1 mb-0">Y DISFRUTAR</h6>
@@ -239,7 +239,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-5">
-                                    <i class="fa fa-utensils fa-2x text-trin"></i>
+                                    <i class="fa fa-solid fa-wine-glass fa-2x text-trin"></i>
                                     <div class="ps-3">
                                         <small class="text-body">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</small>
                                         <h6 class="mt-n1 mb-0">OTROS</h6>
@@ -252,13 +252,13 @@
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>TIRADITO DE SALMON</span>
                                                     <span class="">$17.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Finas láminas de salmón macerado en Limón y especias, 
+                                                <small class="fst-italic">Finas láminas de salmón macerado en limón y especias, 
                                                     napado en una reducción de maracuyá y cremosos de aguacate.
                                                 </small>
                                             </div>
@@ -266,7 +266,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>QUESO PARRILLA</span>
@@ -278,19 +278,19 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>LOS QUESUDOS</span>
                                                     <span class="">$14.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Dados de Queso mozzarella apanados, acompañados de nuestra salsa de la casa y miel mostaza.</small>
+                                                <small class="fst-italic">Dados de queso mozzarella apanados, acompañados de nuestra salsa de la casa y miel mostaza.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>CANASTA A LA CRIOLLA</span>
@@ -302,7 +302,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>AREPITAS CRIOLLAS</span>
@@ -318,7 +318,7 @@
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>TRIOLOGIA DE EMPANADAS</span>
@@ -330,7 +330,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>PLÁTANO A LA MARRANERA #1</span>
@@ -344,7 +344,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>CHORIZO ARTESANAL</span>
@@ -356,10 +356,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>ENSAÑADA DEL HUERTO</span>
+                                                    <span>ENSALADA DEL HUERTO</span>
                                                     <span class="">$21.500</span>
                                                 </h5>
                                                 <small class="fst-italic">Mix de lechugas, tomate cherry, maicitos, pollo en julianas, tocineta en trozos, vinagreta de la casa, queso parmesano.</small>
@@ -368,7 +368,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>PICADA DE LA CASA</span>
@@ -384,151 +384,151 @@
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>SALMON TRES QUESOS</span>
+                                                    <span>SALMÓN TRES QUESOS</span>
                                                     <span class="">$48.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugoso y delicioso salmon bañado en salsa de tres quesos, acompañado de pure de papa y vegetales salteados.</small>
+                                                <small class="fst-italic">Jugoso y delicioso salmón bañado en salsa de tres quesos, acompañado de puré de papa y vegetales salteados.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>SALMON AL VINO BLANCO</span>
+                                                    <span>SALMÓN AL VINO BLANCO</span>
                                                     <span class="">$46.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugoso y delicioso salmon bañado en reduccion de vino blanco, acompañado de pure de papa y vegetales salteados.</small>
+                                                <small class="fst-italic">Jugoso y delicioso salmón bañado en reducción de vino blanco, acompañado de puré de papa y vegetales salteados.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>SALMON EN REDUCCION DE LULO</span>
+                                                    <span>SALMÓN EN REDUCCIÓN DE LULO</span>
                                                     <span class="">$44.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugoso y delicioso salmon bañado en reduccion de lulo, acompañado de pure de papa y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugoso y delicioso salmón bañado en reducción de lulo, acompañado de puré de papa y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>LOMO MAR Y TIERRA</span>
                                                     <span class="">$52.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Medallones de res a termino con camarones, en salsa cremosa de champiñones, acompañado de pure de papa y ensalada de la casa.</small>
+                                                <small class="fst-italic">Medallones de res a término con camarones, en salsa cremosa de champiñones, acompañado de puré de papa y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>STEAK PIMIENTA</span>
                                                     <span class="">$42.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosos y deliciosos medallones gruesos de res al termino 3/4 bañado en reduccion de pimienta acompañado de pure de papa y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosos y deliciosos medallones gruesos de res al término 3/4 bañado en reducción de pimienta acompañado de puré de papa y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>FILET MIGNON</span>
                                                     <span class="">$46.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosos y deliciosos medallones gruesos de res al termino 3/4 albarados en tocineta, bañados en salsa demi-glace con champiñones, acompañado de pure de papa y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosos y deliciosos medallones gruesos de res al término 3/4 albarados en tocineta, bañados en salsa demi-glace con champiñones, acompañado de puré de papa y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>BABY BEEF AL CILANTRO</span>
                                                     <span class="">$40.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el termino deseado, bañado en salsa cremosa de cilantro, acompañado de papa al vapor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el término deseado, bañado en salsa cremosa de cilantro, acompañado de papa al vapor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>BABY BEEF</span>
                                                     <span class="">$38.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el termino deseado, acompañado de papa al valor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el término deseado, acompañado de papa al valor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>PUNTA DE ANCA AL CILANTRO</span>
                                                     <span class="">$40.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en termino 3/4, bañada en salsa cremosa de cilantro, acompañado de papa al vapor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en término 3/4, bañada en salsa cremosa de cilantro, acompañado de papa al vapor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>PUNTA DE ANCA</span>
                                                     <span class="">$36.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla, sellada en termino 3/4, acompañado de papa al vapor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla, sellada en término 3/4, acompañado de papa al vapor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>CHURRASQUITO</span>
                                                     <span class="">$30.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el termino deseado, acompañado de papa al vapor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugosa y deliciosa carne de res a la parrilla en el término deseado, acompañado de papa al vapor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>BIFE CHORIZO</span>
                                                     <span class="">$46.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Jugoso y grueso corte de bife de chorizo que se compone de una pieza grande de carne cubierta de una capa de grasa, sellado en termino 3/4, balada con la salsa del chef, acompañado de papa al vapor, platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Jugoso y grueso corte de bife de chorizo que se compone de una pieza grande de carne cubierta de una capa de grasa, sellado en término 3/4, bañada con la salsa del chef, acompañado de papa al vapor, plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>BONDIOLA</span>
@@ -540,22 +540,22 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>COSTILLAS BBQ JACK DANIEL'S</span>
                                                     <span class="">$32.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Deliciosas costillas en nuestra reduccion de BBQ en reduccion de Jack Daniel's, acompañadas de papa criolla y ensalada de la casa.</small>
+                                                <small class="fst-italic">Deliciosas costillas en nuestra reducción de BBQ en reducción de Jack Daniel's, acompañadas de papa criolla y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>CHULETON</span>
+                                                    <span>CHULETÓN</span>
                                                     <span class="">$30.500</span>
                                                 </h5>
                                                 <small class="fst-italic">Jugoso y delicioso corte de cerdo a la parrilla finamente sellado a la parrilla, acompañado de arepita rellena de queso mozzarella y ensalada de la casa.</small>
@@ -564,19 +564,31 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>PECHUGA TRES QUESOS</span>
                                                     <span class="">$34.500</span>
                                                 </h5>
-                                                <small class="fst-italic">Filete de pechuga en salsa de tres quesos, acompañada de pure de platano maduro y ensalada de la casa.</small>
+                                                <small class="fst-italic">Filete de pechuga en salsa de tres quesos, acompañada de puré de plátano maduro y ensalada de la casa.</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>PECHUGA CON CHAMPIÑONES</span>
+                                                    <span class="">$32.500</span>
+                                                </h5>
+                                                <small class="fst-italic">Filete de pechuga en salsa de champiñones con queso fundido, acompañada de puré de plátano maduro y ensalada de la casa.</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>FETTUCCINI AL POMODORO</span>
@@ -592,7 +604,7 @@
                                 <div class="row g-4">
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/.jpg" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>CHEESE BURGER - TRES QUESOS</span>
@@ -604,7 +616,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>AMERICANA</span>
@@ -616,7 +628,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>TRINCHETE</span>
@@ -628,7 +640,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>BURGESIA</span>
@@ -640,7 +652,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
-                                            <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="img/" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h5 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>VEGGIE</span>
@@ -729,7 +741,7 @@
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h6 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>PAPAS RUSTICAS</span>
+                                                    <span>PAPAS RÚSTICAS</span>
                                                     <span class="">$8.500</span>
                                                 </h6>
                                                 
@@ -740,7 +752,7 @@
                             </div>
                             <div id="tab-5" class="tab-pane fade show p-0">
                                 <div class="row g-4">
-                                    <h5><u>INFANTIL</u></h5>
+                                    <h5><u>INFANTIL</u></h5><br>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
@@ -765,6 +777,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <br><br><br><br><br>
                                     <h5><u>POSTRES</u></h5>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
@@ -814,13 +827,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <br><br><br><br><br>
                                     <h5><u>BEBIDAS CALIENTES</u></h5>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h6 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>CAFE MONTAÑERO</span>
+                                                    <span>CAFÉ MONTAÑERO</span>
                                                     <span class="">$4.000</span>
                                                 </h6>
                                                 
@@ -833,7 +847,7 @@
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h6 class="d-flex justify-content-between border-bottom pb-2">
                                                     <span>AGUAPANELA</span>
-                                                    <span class="">$4.00</span>
+                                                    <span class="">$4.000</span>
                                                 </h6>
                                                 
                                             </div>
@@ -868,7 +882,7 @@
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h6 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>AROMATICA CON FRUTAS</span>
+                                                    <span>AROMÁTICA CON FRUTAS</span>
                                                     <span class="">$7.000</span>
                                                 </h6>
                                                 
@@ -887,7 +901,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <H5><u>BEBIDAS CALIENTES</u></H5>
+                                    <br><br><br><br><br>
+                                    <H5><u>BEBIDAS FRIAS</u></H5>
                                     <div class="col-lg-6">
                                         <div class="d-flex align-items-center">
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
@@ -917,7 +932,7 @@
                                             <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
                                             <div class="w-100 d-flex flex-column text-start ps-4">
                                                 <h6 class="d-flex justify-content-between border-bottom pb-2">
-                                                    <span>MALTEADAS (OREO / CAFE)</span>
+                                                    <span>MALTEADAS (OREO / CAFÉ)</span>
                                                     <span class="">$12.000</span>
                                                 </h6>
                                                 
@@ -984,6 +999,317 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>SODA FRESA - LYCHEE</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>SODA FRUTOS ROJOS</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>SODA MARACUYÁ - HIERBABUENA</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>SODA SANDÍA - FRESA - LIMÓN</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>TAMARINDO MICHELADA DE LIMÓN</span>
+                                                    <span class="">$8.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>TAMARINDO MICHELADA DE MARACUYÁ</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>TAMARINDO MICHELADA DE MANGO BICHE</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>BRETAÑA PERSONAL</span>
+                                                    <span class="">$4.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>GASEOSA PERSONAL</span>
+                                                    <span class="">$4.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>BOTELLA DE AGUA</span>
+                                                    <span class="">$3.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br><br><br><br><br>
+                                    <H5><u>CON ALCOHOL</u></H5>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>JARRA DE SANGRÍA</span>
+                                                    <span class="">$70.000</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>VASO DE SANGRÍA</span>
+                                                    <span class="">$14.000</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>COPA DE VINO CALIENTE</span>
+                                                    <span class="">$12.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>COPA DE VINO DE LA CASA</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>CANELAZO MARACUYÁ</span>
+                                                    <span class="">$10.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>CERVEZA NACIONAL</span>
+                                                    <span class="">$7.500</span>
+                                                </h6>
+                                                    <small>(CLUB DORADA, AGUILA LIGHT)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>CERVEZA ARTESANAL</span>
+                                                    <span class="">$8.500</span>
+                                                </h6>
+                                                <small>(BBC CAJICA MIEL, 3 CORDILLERAS ROSE)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>CERVEZA IMPORTADA</span>
+                                                    <span class="">$9.500</span>
+                                                </h6>
+                                                <small>(CORONA, STELLA)</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>VASO MICHELADO</span>
+                                                    <span class="">$1.500</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br><br><br><br><br>
+                                    <H5><u>COCTELES</u></H5>
+                                    <H5>$22.000</H5>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>MARGARITA TRADICIONAL</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>MARGARITA FRESA</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>MOJITO TRADICIONAL</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>MOJITO MARACUYÁ</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>MOJITO FRESA</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>PIÑA COLADA</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="d-flex align-items-center">
+                                            <img class="flex-shrink-0 img-fluid rounded" src="" alt="" style="width: 80px;">
+                                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                                <h6 class="d-flex justify-content-between border-bottom pb-2">
+                                                    <span>CORONITA MANGO BICHE</span>
+                                                </h6>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <H5>TODOS LOS JUEVES 2X1 (MARGARITAS Y MOJITOS)</H5>
                                 </div>
                             </div>
                         </div>
@@ -1211,22 +1537,20 @@
                     <div class="row g-5">
                         <div class="col-lg-3 col-md-6">
                             <h4 class="section-title ff-secondary text-start text-trin fw-normal mb-4">Trinchete Picnic</h4>
-                            <a class="btn btn-link" href="">Sobre Nostros</a>
-                            <a class="btn btn-link" href="">Contactanos</a>
-                            <a class="btn btn-link" href="">Reservas</a>
-                            <a class="btn btn-link" href="">Privacy Policy</a>
-                            <a class="btn btn-link" href="">Terms & Condition</a>
+                            <a class="btn btn-link" href="#about-start">Sobre Nostros</a>
+                            <a class="btn btn-link" href="https://wa.link/3t4fdo" target="_blank">Contactanos</a>
+                            <a class="btn btn-link" href="https://wa.link/3t4fdo" target="_blank">Reservas</a>
+                            <!-- <a class="btn btn-link" href="">Privacy Policy</a>
+                            <a class="btn btn-link" href="">Terms & Condition</a> -->
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h4 class="section-title ff-secondary text-start text-trin fw-normal mb-4">Contacto</h4>
                             <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Cra. 6, Armenia, Quindío</p>
                             <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(6) 7377731 - 300 5295658</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>email@trinchete.com</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>dianapandora@gmail.com</p>
                             <div class="d-flex pt-2">
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/trinchetepicnic" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/trinchetepicnic" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -1255,10 +1579,10 @@
                             </div>
                             <div class="col-md-6 text-center text-md-end">
                                 <div class="footer-menu">
-                                    <a href="">Home</a>
-                                    <a href="">Cookies</a>
+                                    <a href="#hero-start">Home</a>
+                                    <!-- <a href="">Cookies</a>
                                     <a href="">Help</a>
-                                    <a href="">FQAs</a>
+                                    <a href="">FQAs</a> -->
                                 </div>
                             </div>
                         </div>
@@ -1270,7 +1594,7 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
     </div>
 
     <!-- JavaScript Libraries -->
